@@ -18,9 +18,9 @@ body{
 .container{
     padding: 30px;
 	position: relative;
-	background: linear-gradient(45deg, #1a45a1, #14afb4, #11cc6f);
+	background: linear-gradient(45deg, #0cc77f, #ddc80e, #6004f3);
 	background-size: 500% 500%;
-	animation: change-gradient 10s ease-in-out infinite;
+	animation: change-gradient 50s ease-in-out infinite;
 }
 @keyframes change-gradient {
 	0%{
@@ -39,14 +39,14 @@ body{
 }
 
 .heading_font{
-    color: #ffffff;
+    color: #0e0d0d;
 	font-family: 'Pacifico', cursive;
 	font-size: 35px;
 	font-weight: normal;
 }
 
 .description p{
-	color: #ffffff;
+	color: #2b2727;
     font-style: italic;
     font-size: 14px;
     margin: -5px 0 0;
@@ -80,8 +80,8 @@ body{
 }
 
 .my-cta-button:hover{
-    color: #4d089a;
-    border: 2px solid #4d089a;
+    color: #2b97b8;
+    border: 2px solid #a59caf;
 }
 
 .my-cta-button:active{
@@ -109,7 +109,7 @@ body{
 }
 
 .footer-description{
-	color: #ffffff;
+	color: #495775;
 	margin: 0;
 	font-size: 12px;
 }
@@ -125,7 +125,7 @@ body{
 }
 
 .safe{
-    color: green;
+    color: rgb(11, 167, 50);
 }
 
 .gif{
